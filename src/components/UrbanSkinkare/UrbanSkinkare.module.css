@@ -1,0 +1,27 @@
+.section {
+  @apply px-32 w-full flex justify-start items-center;
+  background-image: url("/images/home/urban.webp");
+  background-size: cover; /* Покрывает весь доступный контент */
+  background-position: center; /* Центрирует изображение */
+  background-repeat: no-repeat; /* Не повторяет изображение */
+  min-height: 1080px; /* Минимальная высота секции, адаптируйте под ваш дизайн */
+}
+
+.container {
+  @apply w-1/2 space-y-10;
+}
+
+.title {
+  @apply capitalize text-beige text-[64px] font-bold;
+  letter-spacing: 0.05em;
+}
+
+.p__new {
+  @apply text-[40px] text-white font-normal;
+  letter-spacing: 0.05em;
+}
+
+.description {
+  @apply text-[26px] text-white font-normal space-y-8;
+  letter-spacing: 0.02em;
+}
