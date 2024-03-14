@@ -1,5 +1,6 @@
+import { Card } from "./Card";
 import styles from "./UrbanMan.module.css";
-import { elza, elzaBold } from "@/fonts";
+import { elza, elzaBold, elzaSemibold } from "@/fonts";
 
 export const UrbanMan = () => {
   return (
@@ -11,7 +12,14 @@ export const UrbanMan = () => {
         <p className={`${styles.subtitle} ${elza.className}`}>
           Explore all products
         </p>
-        <div>{/* CARDS */}</div>
+        <div className={styles.card__container}>
+            <Card
+            image="/images/home/groomed.png"
+            title="Groomed"
+            description="Soft & Nourished"
+            buttonText="Shop The Beard Oil Activator"
+            />
+        </div>
       </div>
     </section>
   );

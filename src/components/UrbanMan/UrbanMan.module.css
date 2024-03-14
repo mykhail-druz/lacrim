@@ -1,7 +1,25 @@
 .section {
-    @apply px-32 ;
+  @apply px-32 py-32;
 }
 
 .container {
-    
+  @apply flex flex-col items-center justify-center space-y-12;
+}
+
+.title {
+  @apply capitalize font-bold text-[48px];
+  letter-spacing: 0.05em;
+}
+
+.subtitle {
+  @apply uppercase font-normal text-[36px] ;
+  letter-spacing: 0.02em;
+}
+
+.card__container {
+  @apply flex;
+}
+
+.card {
+    @apply flex flex-col
 }
