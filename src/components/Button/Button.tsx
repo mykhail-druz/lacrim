@@ -25,7 +25,7 @@ export const Button: React.FC<ButtonProps> = ({
       }`}
       style={style}
     >
-      <a href={href}>{children}</a>
+      <a href={href} className="flex items-center space-x-2">{children}</a>
     </button>
   );
 };

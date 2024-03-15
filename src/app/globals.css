@@ -14,18 +14,18 @@
 }
 
 .indicator.active {
-  @apply bg-beige;
+  @apply bg-beige md:w-[40px] md:h-[12px];
   color: #fff;
-  width: 40px;
-  height: 12px;
 }
 .indicators{
-    @apply absolute mx-auto;
-    left: 25%;
-    right: 25%;
+    @apply absolute mx-auto lg:left-[25%] lg:right-[25%] left-[18%];
     width: 250px;
     bottom: 24px;
 }
 .slide-container{
     @apply -mt-[2px]
+}
+.card__block{
+    @apply flex flex-col justify-end;
+    width: 100%;
 }
