@@ -1,8 +1,14 @@
 .section {
-  @apply flex items-center justify-center relative;
+  @apply md:py-12 min-w-full flex items-center justify-center relative;
   min-height: 1000px;
   overflow: hidden;
 }
+
+@media (max-width: 640px){
+    .section {
+      min-height: 800px;
+    }
+  }
 
 .blur__overlay {
   position: absolute;
@@ -18,10 +24,43 @@
 }
 
 .container {
-  @apply text-center flex flex-col space-y-8 justify-center;
+  @apply w-[95%] lg:w-[45%] text-center flex flex-col space-y-6 md:space-y-8 justify-center;
 }
 
 .new {
-  @apply uppercase;
+  @apply uppercase text-[24px] md:text-[36px] font-medium;
   letter-spacing: 0.2em;
+}
+
+.title {
+  @apply uppercase text-[44px] md:text-[64px] font-bold ;
+  letter-spacing: 0.05em;
+}
+
+.description {
+    @apply text-[18px] md:text-[26px];
+}
+
+.news__container {
+    @apply flex flex-col w-full bg-beige rounded-[12px] py-6 space-y-6;
+}
+
+.news__title {
+    @apply text-[22px] md:text-[32px] font-bold;
+}
+
+.news__description {
+    @apply text-[16px] font-light;
+}
+
+.form {
+    @apply flex mx-auto space-x-4;
+}
+
+.form__input {
+    @apply rounded-[4px] pl-2 pr-8 md:pl-8 md:pr-16 py-2;
+}
+
+.button__form {
+    @apply font-medium bg-black border-2 border-black text-white rounded-3xl px-2 md:px-8;
 }
