@@ -26,12 +26,15 @@
 
 .text__container {
   @apply flex flex-col text-center items-center justify-center space-y-4 py-6;
-  background: linear-gradient(0deg, #292929, #292929),
-    linear-gradient(
-      135.86deg,
-      rgba(177, 177, 177, 0.32) 5.24%,
-      rgba(41, 41, 41, 0.2) 51.01%
-    );
+ background: hsla(0, 0%, 69%, 1);
+
+background: linear-gradient(-45deg, hsla(0, 0%, 69%, 1) 0%, hsla(0, 0%, 16%, 3) 100%);
+
+background: -moz-linear-gradient(-45deg, hsla(0, 0%, 69%, 1) 0%, hsla(0, 0%, 16%, 3) 100%);
+
+background: -webkit-linear-gradient(-45deg, hsla(0, 0%, 69%, 1) 0%,  hsla(0, 0%, 16%, 3) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#B1B1B1", endColorstr="#696969", GradientType=1 );
 }
 
 .card__title {

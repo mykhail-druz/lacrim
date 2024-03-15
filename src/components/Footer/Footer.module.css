@@ -1,5 +1,5 @@
 .footer{
-    @apply w-full bg-black lg:h-[400px] px-8 lg:px-32 grid grid-cols-1 lg:grid-cols-3 py-16;
+    @apply w-full bg-black lg:h-[400px] lg:space-y-0 space-y-8 px-8 lg:px-32 grid grid-cols-1 lg:grid-cols-3 py-16;
 }
 .title{
     @apply text-[34px] font-bold text-white;
@@ -45,4 +45,7 @@
 }
 .input{
     @apply p-2 w-full; 
+}
+.checkbox{
+    @apply w-[32px] h-[32px] rounded-none
 }

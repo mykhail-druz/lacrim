@@ -7,10 +7,10 @@
   min-height: 1080px;
 }
 
-
 @media (max-width: 640px){
   .section {
     min-height: 500px;
+      background-image: url("/images/home/bg.png");
   }
 }
 

@@ -1,5 +1,5 @@
 .section {
-  @apply sm:px-8 py-16 md:px-16 lg:px-32 md:py-32 w-full;
+  @apply px-8 py-16 md:px-16 lg:px-32 md:py-32 w-full;
   background-image: url("/images/about/hero_banner.png"),
     url("/images/about/bg.png");
   background-position: right bottom, center;

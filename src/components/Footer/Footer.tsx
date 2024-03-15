@@ -50,21 +50,23 @@ export const Footer = () => {
         <div className={styles.menu__links}>
           <h1 className={styles.title__links}>Menu</h1>
           <hr className={styles.hr} />
-          <a className={styles.link} href="">
+                  <nav className={styles.menu__links}>
+          <a className={styles.link} href="/">
             Home
           </a>
-          <a className={styles.link} href="">
+          <a className={styles.link} href="/about">
             Our Story
           </a>
           <a className={styles.link} href="">
             Shop
           </a>
-          <a className={styles.link} href="">
+          <a className={styles.link} href="/products">
             Products
           </a>
-          <a className={styles.link} href="">
+          {/* <a className={styles.link} href="/about">
             About us
-          </a>
+          </a> */}
+                  </nav>
         </div>
               <div className={styles.legal__links}>
                   <h1 className={styles.title__links}>Legal</h1>
@@ -95,7 +97,7 @@ export const Footer = () => {
                       enim. Porttitor vitae eu proin ultrices blandit adipiscing
                       massa diam ullamcorper. Varius gravida id at nam enim
                       pretium accumsan fames.</p>
-                  <div className="flex space-x-2"><input type="checkbox" /> <p className="text-white">Lorem ipsum dolor sit amet consectetur. Ridiculus
+                  <div className="flex space-x-2 items-center"><input type="checkbox" className={styles.checkbox} /> <p className="text-white">Lorem ipsum dolor sit amet consectetur. Ridiculus
                       molestie orci </p></div>
                   <Button href={""} buttonColor={"beige"} fontSize={"20"}>Sign Up</Button>
               </div>
