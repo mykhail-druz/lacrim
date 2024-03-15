@@ -3,7 +3,7 @@ import Layout from "@/layout/Layout";
 
 export default function Upcoming() {
     return (
-      <Layout headerType="secondary">
+      <Layout activeNavBtn="upcoming" headerType="secondary">
             Upcoming
       </Layout>
     );

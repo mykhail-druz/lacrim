@@ -1,0 +1,19 @@
+.header {
+  @apply w-full relative flex bg-[#101415] border-b border-beige items-center h-[100px] px-4 md:px-32;
+}
+
+.logo {
+  @apply absolute hidden md:block;
+}
+
+.nav {
+  @apply flex mx-auto items-center justify-between md:justify-center space-x-3 md:space-x-8;
+}
+
+.btn {
+  @apply font-light text-[17px] md:text-[20px] text-beige cursor-pointer hover:scale-105 duration-100;
+}
+
+.btn__active {
+  @apply font-light text-[18px] md:text-[21px] text-white cursor-pointer hover:scale-105 duration-100;
+}

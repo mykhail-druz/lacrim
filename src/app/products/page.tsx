@@ -3,7 +3,7 @@ import Layout from "@/layout/Layout";
 
 export default function Products() {
     return (
-      <Layout headerType="secondary">
+      <Layout activeNavBtn="products" headerType="secondary">
             Products
       </Layout>
     );
