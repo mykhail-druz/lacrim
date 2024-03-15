@@ -1,7 +1,33 @@
 .section {
-  @apply flex items-center;
+  @apply flex items-center justify-center relative;
+  min-height: 300px;
+  overflow: hidden; /* Предотвратить выход за пределы размытого оверлея */
+}
+
+.blur__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("/images/home/coming.webp");
+  background-size: cover;
+  background-position: center;
+  filter: blur(10px);
+  z-index: -1;
 }
 
 .container {
-  @apply flex flex-col;
+  @apply flex flex-col text-center;
+}
+
+.title {
+  @apply uppercase text-[48px] font-bold;
+  letter-spacing: 0.05em;
+  
+}
+
+.description {
+    @apply text-[36px] font-normal pb-4;
+    letter-spacing: 0.05em;
 }

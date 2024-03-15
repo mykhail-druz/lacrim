@@ -1,5 +1,4 @@
 import styles from "./UrbanSkinkare.module.css";
-import { elza, elzaBold } from "@/fonts";
 
 import { Button } from "../Button";
 
@@ -7,10 +6,8 @@ export const UrbanSkinkare = () => {
   return (
     <section className={styles.section}>
       <div className={styles.container}>
-        <p className={`${styles.p__new} ${elza.className}`}>NEW</p>
-        <h1 className={`${styles.title} ${elzaBold.className}`}>
-          Urban inspired skeenkare.
-        </h1>
+        <p className={`${styles.p__new}`}>NEW</p>
+        <h1 className={`${styles.title}`}>Urban inspired skeenkare.</h1>
         <div className={`${styles.description}`}>
           <p className="w-full md:w-[90%] lg:w-[80%]">
             The elegance of luxury and the edge of urbane style in your grooming
@@ -21,8 +18,8 @@ export const UrbanSkinkare = () => {
             values both aesthetics and functionality in his skincare.
           </p>
         </div>
-        <Button href="#">
-            Explore
+        <Button fontSize="20px" buttonColor="beige" href="#">
+          Explore
         </Button>
       </div>
     </section>

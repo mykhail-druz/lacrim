@@ -1,15 +1,14 @@
 import { Card } from "./Card";
 import styles from "./UrbanMan.module.css";
-import { elza, elzaBold, elzaSemibold } from "@/fonts";
 
 export const UrbanMan = () => {
   return (
     <section className={styles.section}>
       <div className={styles.container}>
-        <h2 className={`${styles.title} ${elzaBold.className}`}>
+        <h2 className={`${styles.title}`}>
           For the urban man
         </h2>
-        <p className={`${styles.subtitle} ${elza.className}`}>
+        <p className={`${styles.subtitle}`}>
           Explore all products
         </p>
         <div className={styles.card__container}>
