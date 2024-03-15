@@ -1,0 +1,31 @@
+.section {
+  @apply px-8 py-16 md:px-32 md:py-32 w-full flex flex-col justify-center;
+  background-image: url("/images/home/tiger.png"), url("/images/home/brush.png");
+  background-position: right bottom, right bottom; /* Центрирование обеих картинок */
+  background-repeat: no-repeat, no-repeat; /* Предотвращение повторения картинок */
+  background-size: contain, contain; /* Покрытие всей области каждой картинкой */
+  min-height: 1080px;
+}
+
+@media (max-width: 639px) {
+    .section {
+      background-image: none;
+      min-height: 600px;
+    }
+  }
+
+.container {
+  @apply flex flex-col space-y-4 md:space-y-8 w-full md:w-[50%] lg:w-[40%];
+}
+
+.title {
+  @apply capitalize text-[36px] md:text-[48px] font-bold text-[#101415];
+}
+
+.subtitle {
+  @apply text-[26px] md:text-[32px] text-black;
+}
+
+.description {
+  @apply text-[20px] md:text-[26px] font-light;
+}

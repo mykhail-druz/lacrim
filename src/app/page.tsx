@@ -1,4 +1,4 @@
-import { UrbanMan, UrbanSkinkare } from "@/components";
+import { ComingSoon, Redefining, UrbanMan, UrbanSkinkare } from "@/components";
 import Layout from "@/layout/Layout";
 
 export default function Home() {
@@ -6,6 +6,8 @@ export default function Home() {
     <Layout headerType="main">
       <UrbanSkinkare />
       <UrbanMan />
+      <Redefining />
+      <ComingSoon />
     </Layout>
   );
 }

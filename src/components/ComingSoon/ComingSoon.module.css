@@ -1,0 +1,7 @@
+.section {
+  @apply flex items-center;
+}
+
+.container {
+  @apply flex flex-col;
+}
