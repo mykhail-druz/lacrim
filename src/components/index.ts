@@ -7,3 +7,5 @@ export * from "./Redefining";
 export * from "./ComingSoon"
 
 export * from "./Button";
+
+export * from "./HeroBanner"
