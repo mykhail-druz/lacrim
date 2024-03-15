@@ -12,16 +12,16 @@ export const UrbanSkinkare = () => {
           Urban inspired skeenkare.
         </h1>
         <div className={`${styles.description}`}>
-          <p className="w-[80%]">
+          <p className="w-full md:w-[90%] lg:w-[80%]">
             The elegance of luxury and the edge of urbane style in your grooming
             routine.
           </p>
-          <p className="w-[75%]">
+          <p className="w-full md:w-[85%] lg:w-[75%]">
             Our products are tailored to meet the needs of the urban man who
             values both aesthetics and functionality in his skincare.
           </p>
         </div>
-        <Button>
+        <Button href="#">
             Explore
         </Button>
       </div>

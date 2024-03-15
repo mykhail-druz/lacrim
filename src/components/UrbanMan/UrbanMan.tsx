@@ -13,12 +13,34 @@ export const UrbanMan = () => {
           Explore all products
         </p>
         <div className={styles.card__container}>
-            <Card
-            image="/images/home/groomed.png"
+          <Card
+            image="/images/home/groomed.webp"
             title="Groomed"
             description="Soft & Nourished"
             buttonText="Shop The Beard Oil Activator"
-            />
+            href="#"
+          />
+          <Card
+            image="/images/home/strong.webp"
+            title="Strong"
+            description="Resilient & Rejuvenated"
+            buttonText="Shop The Fortifying Shampoo"
+            href="#"
+          />
+          <Card
+            image="/images/home/vibrant.webp"
+            title="Vibrant"
+            description="Conditioned & Restored"
+            buttonText="Shop The Hair Mask"
+            href="#"
+          />
+          <Card
+            image="/images/home/clean.webp"
+            title="Clean"
+            description="Fresh & Radiant"
+            buttonText="Shop The Purifying Face Mask"
+            href="#"
+          />
         </div>
       </div>
     </section>

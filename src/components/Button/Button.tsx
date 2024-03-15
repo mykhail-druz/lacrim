@@ -4,9 +4,10 @@ import React, {ReactNode} from "react";
 
 type ButtonProps = {
     children: ReactNode,
+    href: string,
 }
 
-export const Button: React.FC<ButtonProps> = ({children}) => {
+export const Button: React.FC<ButtonProps> = ({children, href}) => {
   return (
     <button className={`${styles.button}`}>
       <a href="">{children}</a>

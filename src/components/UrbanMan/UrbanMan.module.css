@@ -1,25 +1,43 @@
 .section {
-  @apply px-32 py-32;
+  @apply px-8 py-16 md:px-32 md:py-32;
 }
 
 .container {
-  @apply flex flex-col items-center justify-center space-y-12;
+  @apply flex flex-col text-center items-center justify-center space-y-6 md:space-y-12;
 }
 
 .title {
-  @apply capitalize font-bold text-[48px];
+  @apply capitalize font-bold text-[36px] md:text-[48px];
   letter-spacing: 0.05em;
 }
 
 .subtitle {
-  @apply uppercase font-normal text-[36px] ;
+  @apply uppercase font-normal text-[24px] md:text-[36px];
   letter-spacing: 0.02em;
 }
 
 .card__container {
-  @apply flex;
+  @apply flex flex-col md:flex-row space-y-8 md:space-y-0 space-x-0 md:space-x-8;
 }
 
 .card {
-    @apply flex flex-col
+  @apply flex flex-col;
+}
+
+.text__container {
+  @apply flex flex-col text-center items-center justify-center space-y-4 py-6;
+  background: linear-gradient(0deg, #292929, #292929),
+    linear-gradient(
+      135.86deg,
+      rgba(177, 177, 177, 0.32) 5.24%,
+      rgba(41, 41, 41, 0.2) 51.01%
+    );
+}
+
+.card__title {
+  @apply text-[28px] font-bold text-white;
+}
+
+.card__description {
+  @apply text-[24px] font-normal text-white;
 }

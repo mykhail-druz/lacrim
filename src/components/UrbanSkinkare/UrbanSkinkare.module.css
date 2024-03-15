@@ -1,18 +1,26 @@
 .section {
-  @apply px-32 w-full flex justify-start items-center;
+  @apply px-8 py-16 md:px-32 md:py-32 w-full flex justify-start items-center;
   background-image: url("/images/home/urban.webp");
-  background-size: cover; /* Покрывает весь доступный контент */
-  background-position: center; /* Центрирует изображение */
-  background-repeat: no-repeat; /* Не повторяет изображение */
-  min-height: 1080px; /* Минимальная высота секции, адаптируйте под ваш дизайн */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 1080px;
 }
 
+
+@media (max-width: 640px){
+  .section {
+    min-height: 500px;
+  }
+}
+
+
 .container {
-  @apply w-1/2 space-y-10;
+  @apply w-full md:w-2/3 lg:w-1/2 space-y-10;
 }
 
 .title {
-  @apply capitalize text-beige text-[64px] font-bold;
+  @apply capitalize text-beige text-[40px] md:text-[52px] lg:text-[64px] font-bold;
   letter-spacing: 0.05em;
 }
 
