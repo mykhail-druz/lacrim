@@ -79,7 +79,7 @@ export const HeroBanner = () => {
   const customIndicators = (index: any) => <span className="indicator"></span>;
 
   return (
-    <div className="slide-container">
+    <section id="up" className="slide-container">
       <Slide
         transitionDuration={1200}
         duration={2500}
@@ -122,6 +122,6 @@ export const HeroBanner = () => {
           </div>
         ))}
       </Slide>
-    </div>
+    </section>
   );
 };
