@@ -59,7 +59,7 @@ export const HeroBanner = () => {
     </div>
   );
 
-  const customIndicators = (index) => (
+  const customIndicators = (index:any) => (
       <span className="indicator"
       >
       </span>
