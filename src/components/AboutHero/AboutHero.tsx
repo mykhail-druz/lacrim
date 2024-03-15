@@ -7,7 +7,7 @@ export const AboutHero = () => {
         <p className={styles.essence}>Our Essence</p>
         <h2 className={styles.title}>Authenticity and Resilience</h2>
         <p className={styles.description}>
-          1908 by LACRIM is more than just a men's care line; it’s a story of
+          1908 by LACRIM is more than just a men&apos;s care line; it&apos;s a story of
           transformation and perseverance.
         </p>
         <p className={styles.description}>
