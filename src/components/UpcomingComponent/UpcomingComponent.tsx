@@ -1,3 +1,4 @@
+import { Newsletter } from "./Newsletter";
 import styles from "./UpcomingComponent.module.css";
 
 export const UpcomingComponent = () => {
@@ -15,6 +16,7 @@ export const UpcomingComponent = () => {
           Stay one step ahead - sign up to our newsletter to receive an
           exclusive <span className="font-bold">10% off</span> upon release.
         </p>
+        <Newsletter/>
       </div>
     </section>
   );
