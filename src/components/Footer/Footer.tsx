@@ -17,7 +17,7 @@ export const Footer = () => {
           The grooming routine where luxury and urban life meet.
         </p>
               </div>
-        <Button href={""} buttonColor={"beige"} fontSize={"16"}>
+        <Button href={"#up"} buttonColor={"beige"} fontSize={"16"}>
           <span>Back to top</span> <ArrowTop />
         </Button>
       </div>
