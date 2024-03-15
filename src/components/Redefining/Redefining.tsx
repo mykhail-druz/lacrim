@@ -5,7 +5,7 @@ export const Redefining = () => {
   return (
     <section className={styles.section}>
       <div className={styles.container}>
-        <h1 className={`${styles.title}`}>Redefining men's grooming.</h1>
+        <h1 className={`${styles.title}`}>Redefining men&apos;s grooming.</h1>
         <h2 className={`${styles.subtitle} w-full md:w-[90%] lg:w-[80%]`}>
           Elevate your routine and embrace the confidencethat comes with it.
         </h2>
