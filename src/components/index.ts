@@ -14,3 +14,4 @@ export * from "./UpcomingComponent"
 export * from "./Button";
 
 export * from "./HeroBanner";
+export * from "./Footer";

@@ -1,6 +1,6 @@
 import React, {ReactNode} from "react";
 
-import {HeaderMain, HeaderSecondary} from "@/components";
+import { HeaderMain, HeaderSecondary, Footer } from "@/components";
 
 type LayoutProps = {
     children: ReactNode,
@@ -13,6 +13,7 @@ const Layout: React.FC<LayoutProps> = ({children, headerType, activeNavBtn}) => 
         <>
             {headerType === "main" ? <HeaderMain /> : <HeaderSecondary activeNavBtn={activeNavBtn}/>}
             <main className="">{children}</main>
+            <Footer />
         </>
     );
 }
