@@ -1,0 +1,6 @@
+.nextArrow{
+    @apply mr-32;
+}
+.prevArrow{
+    @apply ml-32;
+}

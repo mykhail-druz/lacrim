@@ -10,3 +10,5 @@ export * from "./AboutUs"
 export * from "./AboutHero"
 
 export * from "./Button";
+
+export * from "./HeroBanner"
