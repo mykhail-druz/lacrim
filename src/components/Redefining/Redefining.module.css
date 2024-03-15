@@ -1,9 +1,9 @@
 .section {
   @apply px-8 py-16 md:px-32 md:py-32 w-full flex flex-col justify-center;
   background-image: url("/images/home/tiger.png"), url("/images/home/brush.png");
-  background-position: right bottom, right bottom; /* Центрирование обеих картинок */
-  background-repeat: no-repeat, no-repeat; /* Предотвращение повторения картинок */
-  background-size: contain, contain; /* Покрытие всей области каждой картинкой */
+  background-position: right bottom, right bottom;
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain, contain;
   min-height: 1080px;
 }
 

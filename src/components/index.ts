@@ -6,4 +6,7 @@ export * from "./UrbanMan";
 export * from "./Redefining";
 export * from "./ComingSoon"
 
+export * from "./AboutUs"
+export * from "./AboutHero"
+
 export * from "./Button";

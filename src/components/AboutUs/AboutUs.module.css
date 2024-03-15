@@ -1,0 +1,23 @@
+.section {
+  @apply px-8 md:px-32 mt-24 mb-16 space-y-32 md:space-y-64;
+}
+
+.container {
+  @apply flex flex-col md:flex-row items-center justify-between space-y-8 md:space-y-0;
+}
+
+.container__reverse {
+  @apply flex flex-col md:flex-row-reverse items-center justify-between space-y-8 md:space-y-0;
+}
+
+.text__container {
+  @apply flex flex-col space-y-8 w-full md:w-1/2;
+}
+
+.title {
+  @apply text-[36px] md:text-[48px] font-bold;
+}
+
+.description {
+  @apply text-[20px] md:text-[24px];
+}
