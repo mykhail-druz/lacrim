@@ -1,0 +1,35 @@
+.section {
+  @apply px-8 py-16 md:px-32 md:py-32 w-full;
+  background-image: url("/images/about/hero_banner.png"),
+    url("/images/about/bg.png");
+  background-position: right bottom, center;
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain, cover;
+  min-height: 1000px;
+}
+
+@media (max-width: 639px) {
+  .section {
+    background-image: url("/images/about/bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+  }
+}
+
+.container {
+  @apply flex flex-col w-full md:w-1/2 space-y-10;
+}
+
+.essence {
+  @apply text-[30px] md:text-[42px] text-white;
+}
+
+.title {
+    @apply text-[44px] md:text-[56px] font-bold text-beige
+}
+
+.description {
+    @apply text-[20px] md:text-[32px] text-white 
+}
