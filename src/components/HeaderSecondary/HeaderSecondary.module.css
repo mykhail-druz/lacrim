@@ -1,19 +1,48 @@
 .header {
-  @apply w-full relative flex bg-[#101415] border-b border-beige items-center h-[100px] px-4 md:px-16 lg:px-32;
+  @apply w-full relative flex bg-[#101415] border-b border-beige items-center h-[100px] px-4 md:px-6 lg:px-8 xl:px-8 2xl:px-32;
 }
 
 .logo {
   @apply absolute hidden lg:block;
 }
 
+@media (max-width: 1220px) {
+  .logo {
+    @apply hidden;
+  }
+}
+
 .nav {
-  @apply flex mx-auto items-center justify-between md:justify-center space-x-3 md:space-x-8;
+  @apply hidden md:flex mx-auto items-center justify-between md:justify-center space-x-3 md:space-x-8;
 }
 
 .btn {
-  @apply font-light text-[17px] md:text-[20px] text-beige cursor-pointer hover:scale-105 duration-100;
+  @apply font-light text-[16px] md:text-[20px] text-beige cursor-pointer hover:scale-105 duration-100;
 }
 
 .btn__active {
-  @apply font-light text-[18px] md:text-[21px] text-white cursor-pointer hover:scale-105 duration-100;
+  @apply font-light text-[17px] md:text-[21px] text-white cursor-pointer hover:scale-105 duration-100;
+}
+
+.mobile_nav__block {
+  @apply h-screen w-full flex justify-end z-20;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 1);
+  transition: transform 1s ease-in-out;
+  transform: translateX(100%);
+}
+
+.mobile_nav__block.open {
+  transform: translateX(0%);
+  transition: transform 1s ease-in-out;
+}
+
+.mobile__nav {
+  @apply flex flex-col text-white py-32 px-12 items-end space-y-4;
+}
+
+.mobile_nav__a {
+  @apply text-[24px] text-beige;
 }
