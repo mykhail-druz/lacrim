@@ -1,5 +1,5 @@
 .section {
-  @apply px-8 py-16 md:px-32 md:py-32 w-full flex justify-start items-center;
+  @apply px-8 md:px-16 lg:px-24 xl:px-28 2xl:px-32 py-16 md:py-32 w-full flex justify-start items-center;
   background-image: url("/images/home/urban.webp");
   background-size: cover;
   background-position: center;
@@ -16,7 +16,7 @@
 
 
 .container {
-  @apply w-full md:w-2/3 lg:w-1/2 space-y-10;
+  @apply w-full md:w-2/3 lg:w-3/4 xl:w-3/4 2xl:w-1/2 space-y-10;
 }
 
 .title {
