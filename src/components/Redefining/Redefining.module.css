@@ -1,18 +1,31 @@
 .section {
-  @apply px-8 py-16 md:px-32 md:py-32 w-full flex flex-col justify-center;
+  @apply px-8 md:px-16 lg:px-24 xl:px-28 2xl:px-32 py-12 xl:py-16 2xl:py-32 w-full flex flex-col justify-center;
   background-image: url("/images/home/tiger.png"), url("/images/home/brush.png");
   background-position: right bottom, right bottom;
   background-repeat: no-repeat, no-repeat;
   background-size: contain, contain;
-  min-height: 1080px;
+  min-height: 850px;
 }
 
-@media (max-width: 639px) {
-    .section {
-      background-image: none;
-      min-height: 600px;
-    }
+@media (max-width: 1700px) {
+  .section {
+    background-size: 80%, 65%;
   }
+}
+
+@media (max-width: 1600px) {
+  .section {
+    background-size: 85%, 70%;
+  }
+}
+
+/* Удаление фоновых изображений на экранах меньше 640px */
+@media (max-width: 760px) {
+  .section {
+    background-image: none;
+    min-height: 600px;
+  }
+}
 
 .container {
   @apply flex flex-col space-y-4 md:space-y-8 w-full md:w-[50%] lg:w-[40%];

@@ -10,7 +10,7 @@ export const ComingSoon = () => {
         <p className={`${styles.description}`}>summer collection</p>
         <div>
           {" "}
-          <Button fontSize="16px" buttonColor="black" href="#">
+          <Button fontSize="16px" buttonColor="black" href="/upcoming">
             Discover
           </Button>
         </div>

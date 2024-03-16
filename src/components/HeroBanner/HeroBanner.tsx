@@ -114,7 +114,7 @@ export const HeroBanner = () => {
 
                   <p className="lg:text-[24px] text-white">{slideImage.desc}</p>
                 </div>
-                <Button href={""} buttonColor={"beige"} fontSize={"18"}>
+                <Button href={"/products"} buttonColor={"beige"} fontSize={"18"}>
                   Discover
                 </Button>
               </div>

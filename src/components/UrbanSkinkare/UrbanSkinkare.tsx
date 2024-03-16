@@ -18,7 +18,7 @@ export const UrbanSkinkare = () => {
             values both aesthetics and functionality in his skincare.
           </p>
         </div>
-        <Button fontSize="20px" buttonColor="beige" href="#">
+        <Button fontSize="20px" buttonColor="beige" href="/about">
           Explore
         </Button>
       </div>
