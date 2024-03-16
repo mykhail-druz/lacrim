@@ -1,5 +1,5 @@
 .section {
-  @apply px-8 md:px-32 mt-24 mb-16 space-y-32 md:space-y-64;
+  @apply px-8 md:px-16 lg:px-24 xl:px-28 2xl:px-32 mt-24 mb-16 space-y-32 md:space-y-64;
 }
 
 .container {
