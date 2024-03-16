@@ -1,0 +1,27 @@
+.bg__block{
+    @apply flex flex-col lg:h-[4321px] bg-cover space-y-16 lg:space-y-0;
+    background-image: url('/images/products/bg.png');
+    width:100%;
+
+}
+.first__block{
+    @apply flex lg:flex-row flex-col-reverse lg:justify-between lg:pl-32 lg:pr-64 lg:px-0 px-16
+}
+.desc{
+@apply lg:text-[24px] text-[18px] text-black
+}
+.title{
+    @apply font-extrabold lg:text-[40px] text-[24px] text-[#101415]
+}
+.text__block{
+@apply my-auto space-y-2 lg:mb-64 items-center px-8
+}
+.second__block{
+    @apply flex lg:flex-row flex-col justify-between lg:pr-32 lg:my-64 space-y-16 lg:space-y-0
+}
+.third__block{
+     @apply flex lg:flex-row flex-col justify-between lg:pl-32 lg:my-64 space-y-16 lg:space-y-0
+}
+.fourth__block{
+     @apply mt-auto flex lg:flex-row flex-col-reverse lg:pr-32 lg:space-x-16 lg:pb-8 space-y-16 lg:space-y-0
+}
