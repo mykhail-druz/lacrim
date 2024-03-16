@@ -70,7 +70,7 @@ export const AboutUs = () => {
             and confidence within your own skin.
           </p>
           <div>
-            <Button fontSize="20px" buttonColor="beige" href="#">
+            <Button fontSize="20px" buttonColor="beige" href="/products">
               Visit our store
             </Button>
           </div>

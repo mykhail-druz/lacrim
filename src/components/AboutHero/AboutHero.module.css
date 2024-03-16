@@ -1,14 +1,20 @@
 .section {
-  @apply px-8 py-16 md:px-16 lg:px-32 md:py-32 w-full;
+  @apply px-8 md:px-16 lg:px-24 xl:px-28 2xl:px-32 py-16 md:py-32 w-full;
   background-image: url("/images/about/hero_banner.png"),
     url("/images/about/bg.png");
-  background-position: right bottom, center;
+  background-position: right, center;
   background-repeat: no-repeat, no-repeat;
   background-size: contain, cover;
-  min-height: 1000px;
+  min-height: 900px;
 }
 
-@media (max-width: 639px) {
+@media (max-width: 1400px) {
+  .section {
+    background-size: 60% ,cover;
+  }
+}
+
+@media (max-width: 1200px) {
   .section {
     background-image: url("/images/about/bg.png");
     background-position: center;
@@ -19,7 +25,7 @@
 }
 
 .container {
-  @apply flex flex-col w-full md:w-1/2 space-y-10;
+  @apply flex flex-col w-full xl:w-2/3 2xl:w-1/2 space-y-10;
 }
 
 .essence {
@@ -27,9 +33,9 @@
 }
 
 .title {
-    @apply text-[44px] md:text-[56px] font-bold text-beige
+  @apply text-[44px] md:text-[56px] font-bold text-beige;
 }
 
 .description {
-    @apply text-[20px] md:text-[32px] text-white 
+  @apply text-[20px] md:text-[32px] text-white;
 }

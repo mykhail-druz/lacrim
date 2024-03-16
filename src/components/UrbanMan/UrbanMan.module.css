@@ -7,25 +7,27 @@
 }
 
 .title {
-  @apply capitalize font-bold text-[36px] md:text-[48px];
+  @apply capitalize font-bold text-[30px] md:text-[48px];
   letter-spacing: 0.05em;
 }
 
 .subtitle {
-  @apply uppercase font-normal text-[24px] md:text-[36px];
+  @apply uppercase font-normal text-[22px] md:text-[36px];
   letter-spacing: 0.02em;
 }
 
 .card__container {
-  @apply flex flex-col md:flex-row space-y-8 md:space-y-0 space-x-0 md:space-x-0 lg:space-x-8;
+  @apply flex flex-col space-y-8 md:grid md:grid-cols-2 md:gap-8 lg:gap-12 xl:gap-0 md:space-y-0 md:space-x-0 lg:grid-cols-2 lg:space-x-0 xl:flex xl:flex-row xl:space-y-0 xl:space-x-8 2xl:flex 2xl:flex-row 2xl:space-y-0 2xl:space-x-8;
 }
+
+
 
 .card {
   @apply flex flex-col;
 }
 
 .text__container {
-  @apply flex flex-col text-center items-center justify-center space-y-4 py-6;
+  @apply flex flex-col text-center items-center justify-center space-y-4 py-6 px-2;
  background: hsla(0, 0%, 69%, 1);
 
 background: linear-gradient(-45deg, hsla(0, 0%, 69%, 1) 0%, hsla(0, 0%, 16%, 3) 100%);
@@ -38,9 +40,10 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#B1B1B1", en
 }
 
 .card__title {
-  @apply text-[28px] font-bold text-white;
+  @apply text-[22px] md:text-[20px] lg:text-[22px] xl:text-[24px] 2xl:text-[28px] font-bold text-white;
 }
 
 .card__description {
-  @apply text-[24px] font-normal text-white;
+  @apply text-[18px] md:text-[20px] lg:text-[20px] xl:text-[20px] 2xl:text-[24px] font-normal text-white whitespace-nowrap;
 }
+

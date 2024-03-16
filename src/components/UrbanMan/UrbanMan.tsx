@@ -5,40 +5,36 @@ export const UrbanMan = () => {
   return (
     <section className={styles.section}>
       <div className={styles.container}>
-        <h2 className={`${styles.title}`}>
-          For the urban man
-        </h2>
-        <p className={`${styles.subtitle}`}>
-          Explore all products
-        </p>
+        <h2 className={`${styles.title}`}>For the urban man</h2>
+        <p className={`${styles.subtitle}`}>Explore all products</p>
         <div className={styles.card__container}>
           <Card
             image="/images/home/groomed.webp"
             title="Groomed"
             description="Soft & Nourished"
-            buttonText="Shop The Beard Oil Activator"
-            href="#"
+            buttonText="Beard Oil Activator"
+            href="/products"
           />
           <Card
             image="/images/home/strong.webp"
             title="Strong"
             description="Resilient & Rejuvenated"
-            buttonText="Shop The Fortifying Shampoo"
-            href="#"
+            buttonText="Fortifying Shampoo"
+            href="/products"
           />
           <Card
             image="/images/home/vibrant.webp"
             title="Vibrant"
             description="Conditioned & Restored"
-            buttonText="Shop The Hair Mask"
-            href="#"
+            buttonText="Hair Mask"
+            href="/products"
           />
           <Card
             image="/images/home/clean.webp"
             title="Clean"
             description="Fresh & Radiant"
-            buttonText="Shop The Purifying Face Mask"
-            href="#"
+            buttonText="Purifying Face Mask"
+            href="/products"
           />
         </div>
       </div>

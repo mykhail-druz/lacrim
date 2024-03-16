@@ -22,18 +22,20 @@ export const Card: React.FC<CardProps> = ({
   return (
     <div className={styles.card}>
       {image && (
-        <Image src={image} alt={title || ""} width={350} height={450} />
+        <Image className="translate-y-[2px]" src={image} alt={title || ""} width={350} height={450} />
       )}
       <div className={styles.text__container}>
         {title && <h2 className={styles.card__title}>{title}</h2>}
         {description && (
           <p className={styles.card__description}>{description}</p>
         )}
+        <div>
         {buttonText && (
           <Button fontSize="16px" buttonColor="beige" href={href}>
             {buttonText}
           </Button>
         )}
+        </div>
       </div>
     </div>
   );

@@ -6,14 +6,14 @@ export const Redefining = () => {
     <section className={styles.section}>
       <div className={styles.container}>
         <h1 className={`${styles.title}`}>Redefining men&apos;s grooming.</h1>
-        <h2 className={`${styles.subtitle} w-full md:w-[90%] lg:w-[80%]`}>
+        <h2 className={`${styles.subtitle} w-full lg:w-full xl:w-[95%] 2xl:w-[80%]`}>
           Elevate your routine and embrace the confidencethat comes with it.
         </h2>
         <p className={`${styles.description} w-full md:w-[85%] lg:w-[75%]`}>
           Discover the Essence of Urban Luxury in Every Product.
         </p>
         <div>
-          <Button fontSize="20px" buttonColor="beige" href="#">
+          <Button fontSize="20px" buttonColor="beige" href="/products">
             Explore
           </Button>
         </div>
