@@ -11,6 +11,8 @@ type ButtonProps = {
   className?:string;
   data_aos?:string;
 
+  className?:string;
+  data_aos?:string;
 };
 
 export const Button: React.FC<ButtonProps> = ({
