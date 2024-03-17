@@ -112,12 +112,17 @@ export const Footer = () => {
             ultrices blandit adipiscing massa diam ullamcorper. Varius gravida
             id at nam enim pretium accumsan fames.
           </p>
-          <div className="flex space-x-2 items-center">
-            <input type="checkbox" className={styles.checkbox} />{" "}
-            <p className="text-white">
-              Lorem ipsum dolor sit amet consectetur. Ridiculus molestie orci{" "}
-            </p>
-          </div>
+          <form className="flex space-x-[20px] items-center">
+            <input
+              id="unique-checkbox-id"
+              type="checkbox"
+
+              name="unique-checkbox-id"
+            />
+            <label htmlFor="unique-checkbox-id" className="text-white cursor-pointer">
+              Lorem ipsum dolor sit amet consectetur. Ridiculus molestie orci
+            </label>
+          </form>
           <Button href={""} buttonColor={"beige"} fontSize={"20"}>
             Sign Up
           </Button>
