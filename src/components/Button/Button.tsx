@@ -8,6 +8,9 @@ type ButtonProps = {
   buttonColor: "black" | "beige";
   fontSize: string;
   onClick?: React.MouseEventHandler<HTMLElement>;
+  className?:string;
+  data_aos?:string;
+
 };
 
 export const Button: React.FC<ButtonProps> = ({
@@ -16,6 +19,8 @@ export const Button: React.FC<ButtonProps> = ({
   buttonColor,
   fontSize,
   onClick,
+  className,
+  data_aos
 }) => {
   const style = {
     fontSize: fontSize,
@@ -25,9 +30,10 @@ export const Button: React.FC<ButtonProps> = ({
     <button
       className={`${
         buttonColor === "black" ? styles.buttonBlack : styles.buttonBeige
-      }`}
+        } ${className}`}
       style={style}
       onClick={onClick}
+      data-aos={data_aos}
     >
       <a href={href} className="flex items-center space-x-2">
         {children}

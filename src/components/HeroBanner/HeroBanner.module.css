@@ -4,3 +4,6 @@
 .prevArrow{
     @apply ml-32;
 }
+.styles.section{
+    @apply min-w-[100vw]
+}
