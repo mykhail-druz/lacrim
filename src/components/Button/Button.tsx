@@ -7,6 +7,8 @@ type ButtonProps = {
   href: string;
   buttonColor: "black" | "beige";
   fontSize: string;
+  className?:string;
+  data_aos?:string;
 };
 
 export const Button: React.FC<ButtonProps> = ({
@@ -14,6 +16,8 @@ export const Button: React.FC<ButtonProps> = ({
   href,
   buttonColor,
   fontSize,
+  className,
+  data_aos
 }) => {
   const style = {
     fontSize: fontSize,
@@ -22,8 +26,9 @@ export const Button: React.FC<ButtonProps> = ({
     <button
       className={`${
         buttonColor === "black" ? styles.buttonBlack : styles.buttonBeige
-      }`}
+        } ${className}`}
       style={style}
+      data-aos={data_aos}
     >
       <a href={href} className="flex items-center space-x-2">{children}</a>
     </button>

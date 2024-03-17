@@ -79,7 +79,7 @@ export const HeroBanner = () => {
   const customIndicators = (index: any) => <span className="indicator"></span>;
 
   return (
-    <section id="up" className="slide-container">
+    <section id="up" className={`slide-container ${styles.section}`}>
       <Slide
         transitionDuration={1200}
         duration={2500}
@@ -105,7 +105,7 @@ export const HeroBanner = () => {
             >
               <div className="space-y-8 flex flex-col lg:mx-0 lg:ml-auto lg:mr-[20%] mr-0 ml-0 mx-auto lg:px-0 px-8 lg:items-start items-start lg:mt-0 mt-[250px]">
                 <div>
-                  <h2 className="lg:text-[32px] text-white">
+                  <h2 className="lg:text-[32px] text-white ">
                     {slideImage.subtitle}
                   </h2>
                   <h1 className="lg:text-[44px] text-beige font-bold">

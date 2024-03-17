@@ -11,8 +11,9 @@ export const AboutUs = () => {
           alt="Positive"
           width={400}
           height={400}
+          data-aos="fade-right"
         />
-        <div className={styles.text__container}>
+        <div className={styles.text__container} data-aos="fade-right">
           <h3 className={styles.title}>Positive Masculinity</h3>
           <p className={styles.description}>
             Boost your confidence and self-esteem with 1908 by LACRIM.
@@ -33,8 +34,9 @@ export const AboutUs = () => {
           alt="Positive"
           width={400}
           height={400}
+          data-aos="fade-left"
         />
-        <div className={styles.text__container}>
+        <div className={styles.text__container} data-aos="fade-left">
           <h3 className={styles.title}>
             Natural Ingredients, Tailored for You
           </h3>
@@ -55,8 +57,9 @@ export const AboutUs = () => {
           alt="Positive"
           width={400}
           height={400}
+          data-aos="fade-right"
         />
-        <div className={styles.text__container}>
+        <div className={styles.text__container} data-aos="fade-right">
           <h3 className={styles.title}>Positive Masculinity</h3>
           <p className={styles.description}>
             Boost your confidence and self-esteem with 1908 by LACRIM.
