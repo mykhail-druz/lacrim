@@ -97,20 +97,31 @@ export const Footer = () => {
         </div>
       </div>
       <div className={styles.newsletter__block}>
-              <h1 className={styles.newsletter_title}>Newsletter</h1>
-              <hr className={styles.hr} />
-              <div className="space-y-2 pt-2">
-                <input type="text" placeholder="Enter Email" className={styles.input} />
-                  <p className={styles.desc__form}>Lorem ipsum dolor sit amet consectetur. Ridiculus
-                      molestie orci felis hendrerit adipiscing tempus rhoncus
-                      eget et. Eu auctor odio accumsan nunc sed ultrices eget
-                      enim. Porttitor vitae eu proin ultrices blandit adipiscing
-                      massa diam ullamcorper. Varius gravida id at nam enim
-                      pretium accumsan fames.</p>
-                  <div className="flex space-x-2 items-center"><input type="checkbox" className={styles.checkbox} /> <p className="text-white">Lorem ipsum dolor sit amet consectetur. Ridiculus
-                      molestie orci </p></div>
-                  <Button href={""} buttonColor={"beige"} fontSize={"20"}>Sign Up</Button>
-              </div>
+        <h1 className={styles.newsletter_title}>Newsletter</h1>
+        <hr className={styles.hr} />
+        <div className="space-y-2 pt-2">
+          <input
+            type="text"
+            placeholder="Enter Email"
+            className={styles.input}
+          />
+          <p className={styles.desc__form}>
+            Lorem ipsum dolor sit amet consectetur. Ridiculus molestie orci
+            felis hendrerit adipiscing tempus rhoncus eget et. Eu auctor odio
+            accumsan nunc sed ultrices eget enim. Porttitor vitae eu proin
+            ultrices blandit adipiscing massa diam ullamcorper. Varius gravida
+            id at nam enim pretium accumsan fames.
+          </p>
+          <div className="flex space-x-2 items-center">
+            <input type="checkbox" className={styles.checkbox} />{" "}
+            <p className="text-white">
+              Lorem ipsum dolor sit amet consectetur. Ridiculus molestie orci{" "}
+            </p>
+          </div>
+          <Button href={""} buttonColor={"beige"} fontSize={"20"}>
+            Sign Up
+          </Button>
+        </div>
       </div>
     </footer>
   );
