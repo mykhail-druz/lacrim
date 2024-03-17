@@ -9,7 +9,6 @@ export default function Home() {
   useEffect(() => {
     AOS.init({
       duration: 800,
-      easing: "slide",
       once: false,
       mirror: true,
       anchorPlacement: "top-bottom",
