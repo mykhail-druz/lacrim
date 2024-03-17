@@ -10,9 +10,6 @@ type ButtonProps = {
   onClick?: React.MouseEventHandler<HTMLElement>;
   className?:string;
   data_aos?:string;
-
-  className?:string;
-  data_aos?:string;
 };
 
 export const Button: React.FC<ButtonProps> = ({
@@ -32,7 +29,7 @@ export const Button: React.FC<ButtonProps> = ({
     <button
       className={`${
         buttonColor === "black" ? styles.buttonBlack : styles.buttonBeige
-        } ${className}`}
+      }`}
       style={style}
       onClick={onClick}
       data-aos={data_aos}

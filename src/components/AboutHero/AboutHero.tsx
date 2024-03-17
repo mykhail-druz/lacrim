@@ -2,7 +2,7 @@ import styles from "./AboutHero.module.css";
 
 export const AboutHero = () => {
   return (
-    <section className={styles.section} data-aos="fade-in">
+    <section className={styles.section}>
       <div className={styles.container}>
         <p className={styles.essence}>Our Essence</p>
         <h2 className={styles.title}>Authenticity and Resilience</h2>
