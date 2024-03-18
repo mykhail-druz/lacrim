@@ -4,11 +4,11 @@
   overflow: hidden;
 }
 
-@media (max-width: 640px){
-    .section {
-      min-height: 800px;
-    }
+@media (max-width: 640px) {
+  .section {
+    min-height: 800px;
   }
+}
 
 .blur__overlay {
   position: absolute;
@@ -33,34 +33,34 @@
 }
 
 .title {
-  @apply uppercase text-[44px] md:text-[64px] font-bold ;
+  @apply uppercase text-[44px] md:text-[64px] font-bold;
   letter-spacing: 0.05em;
 }
 
 .description {
-    @apply text-[18px] md:text-[26px];
+  @apply text-[18px] md:text-[26px];
 }
 
 .news__container {
-    @apply flex flex-col w-full bg-beige rounded-[12px] px-2 py-6 space-y-6;
+  @apply flex flex-col w-full bg-beige rounded-[12px] px-2 py-6 space-y-6;
 }
 
 .news__title {
-    @apply text-[20px] md:text-[32px] font-bold;
+  @apply text-[20px] md:text-[32px] font-bold;
 }
 
 .news__description {
-    @apply text-[16px] font-light;
+  @apply text-[16px] font-light;
 }
 
 .form {
-    @apply flex flex-col md:flex-row mx-auto space-y-4 md:space-y-0 md:space-x-4;
+  @apply flex flex-col md:flex-row mx-auto space-y-4 md:space-y-0 md:space-x-4;
 }
 
 .form__input {
-    @apply rounded-[4px] pl-4 pr-8 md:pl-8 md:pr-16 py-2;
+  @apply rounded-[4px] pl-4 pr-8 md:pl-8 md:pr-16 py-2;
 }
 
 .button__form {
-    @apply font-medium bg-black border-2 border-black text-white rounded-3xl py-2 md:py-0 px-2 md:px-8;
+  @apply font-medium bg-black border-2 border-black text-white rounded-3xl py-2 md:py-0 px-2 md:px-8 hover:bg-beige hover:text-black duration-300;
 }
