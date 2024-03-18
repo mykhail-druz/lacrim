@@ -5,19 +5,19 @@ export const MobileNav = () => {
     <div className={`${styles.mobile_nav__block} ${styles.open}`}>
       <nav className={styles.mobile__nav}>
         <a className={styles.mobile_nav__a} href="/">
-          Home
+          Maison
         </a>
         <a className={styles.mobile_nav__a} href="/products">
-          Products
+          Produits
         </a>
         <a className={styles.mobile_nav__a} href="/about">
-          Our Story
+          Histoire
         </a>
         <a className={styles.mobile_nav__a} href="/">
-          Shop
+          Boutique
         </a>
         <a className={styles.mobile_nav__a} href="/upcoming">
-          Upcoming
+          Prochainement
         </a>
       </nav>
     </div>
