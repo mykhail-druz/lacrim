@@ -10,7 +10,7 @@ import Twitter from "@/icons/footer/ri_twitter-x-fill.svg";
 export const Footer = () => {
   return (
     <footer className={styles.footer}>
-      <div className="space-y-3">
+      <div className="space-y-3 w-full md:w-[95%]">
         <h1 className={styles.title}>Rejoignez le Mouvement 1908</h1>
         <div>
           <p className={styles.desc}>
@@ -123,13 +123,13 @@ export const Footer = () => {
             />
             <label
               htmlFor="unique-checkbox-id"
-              className="text-white cursor-pointer"
+              className="text-white cursor-pointer text-[14px]"
             >
               Lorem ipsum dolor sit amet consectetur. Ridiculus molestie orci
             </label>
           </form>
           <div className="pt-4">
-            <Button href={""} buttonColor={"beige"} fontSize={"20"}>
+            <Button href={""} buttonColor={"beige"} fontSize={"16px"}>
               Sign Up
             </Button>
           </div>
