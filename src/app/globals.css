@@ -79,7 +79,7 @@ html {
   top: -6px;
 }
 
-@media (max-width: 1650px) {
+@media (max-width: 1415px) {
   [type="checkbox"] + label::before {
     content: "";
     position: absolute;

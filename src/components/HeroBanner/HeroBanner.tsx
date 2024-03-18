@@ -19,14 +19,14 @@ const slideImages = [
     title: "Huile Activatrice pour Barbe",
     subtitle: "Essentiel",
     desc: "Assouplit les cheveux et favorise la croissance de la barbe.",
-    mobileUrl: "/images/herobanner/mobile_hero_slide_third.png",
+    mobileUrl: "/images/herobanner/hero_mobile_1.png",
   },
   {
     url: "/images/herobanner/hero_slide_second.webp",
     title: "Masque Purifiant pour le Visage",
     subtitle: "Essentiel",
     desc: "Élimine les impuretés, exfolie et resserre les pores.",
-    mobileUrl: "/images/herobanner/mobile_hero_slide_third.png",
+    mobileUrl: "/images/herobanner/hero_mobile_2.png",
   },
   {
     url: "/images/herobanner/hero_slide_third.webp",
@@ -40,7 +40,7 @@ const slideImages = [
     title: "Shampoing Fortifiant",
     subtitle: "Essentiel",
     desc: "Nettoie, purifie et revitalise la croissance des cheveux.",
-    mobileUrl: "/images/herobanner/mobile_hero_slide_third.png",
+    mobileUrl: "/images/herobanner/hero_mobile_4.png",
   },
 ];
 export const HeroBanner = () => {
