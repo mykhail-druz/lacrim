@@ -20,4 +20,5 @@
 
 .description {
   @apply text-[20px] md:text-[24px];
+  line-height: 29px;
 }

@@ -6,17 +6,34 @@ export const UpcomingComponent = () => {
     <section className={styles.section}>
       <div className={styles.blur__overlay}></div>
       <div className={styles.container}>
-        <p className={styles.new}>New</p>
-        <p className={styles.title}>Coming soon</p>
-        <p className={styles.description}>
-          Upgrade your summer skincare with our new collection to keep your skin
-          refreshed, hydrated, and protected from the sun.
+        <p className={styles.new} data-aos="fade-down" data-aos-duration="1000">
+          NOUVEAU
         </p>
-        <p className={styles.description}>
-          Stay one step ahead - sign up to our newsletter to receive an
-          exclusive <span className="font-bold">10% off</span> upon release.
+        <p
+          className={`${styles.title} animate__pulse animate__animated animate__infinite`}
+          data-aos="fade-down"
+          data-aos-duration="1100"
+        >
+          Bientôt disponible
         </p>
-        <Newsletter/>
+        <p
+          className={styles.description}
+          data-aos="fade-down"
+          data-aos-duration="1200"
+        >
+          Améliorez vos soins de peau cet été avec notre nouvelle collection
+          pour garder votre peau rafraîchie, hydratée et protégée du soleil.
+        </p>
+        <p
+          className={styles.description}
+          data-aos="fade-down"
+          data-aos-duration="1300"
+        >
+          Restez une longueur d&apos;avance – inscrivez-vous à notre newsletter
+          pour recevoir une réduction exclusive de{" "}
+          <span className="font-bold">10% lors</span> du lancement.
+        </p>
+        <Newsletter />
       </div>
     </section>
   );

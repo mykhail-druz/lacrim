@@ -14,50 +14,49 @@ const spanStyle = {
 
 const divStyle = {};
 const slideImages = [
-    {
-      url: "/images/herobanner/hero_slide.webp",
-      title: "Beard Oil Activator",
-      subtitle: "Essential",
-      desc: "Softens hair & supports beard growth.",
-    mobileUrl: '/images/herobanner/mobile_hero_slide_third.png',
-    },
+  {
+    url: "/images/herobanner/hero_slide.webp",
+    title: "Huile Activatrice pour Barbe",
+    subtitle: "Essentiel",
+    desc: "Assouplit les cheveux et favorise la croissance de la barbe.",
+    mobileUrl: "/images/herobanner/mobile_hero_slide_third.png",
+  },
   {
     url: "/images/herobanner/hero_slide_second.webp",
-      title: "Purifying Face Mask",
-      subtitle: "Essential",
-      desc: "Eliminates impurities, exfoliates & tightens pores.",
-    mobileUrl: '/images/herobanner/mobile_hero_slide_third.png',
-
+    title: "Masque Purifiant pour le Visage",
+    subtitle: "Essentiel",
+    desc: "Élimine les impuretés, exfolie et resserre les pores.",
+    mobileUrl: "/images/herobanner/mobile_hero_slide_third.png",
   },
   {
     url: "/images/herobanner/hero_slide_third.webp",
-    title: "Hair Mask",
-    subtitle: "Essential",
-    desc: "Deeply conditions, improves shine & hair elasticity.",
-    mobileUrl:'/images/herobanner/mobile_hero_slide_third.png',
+    title: "Masque pour Cheveux",
+    subtitle: "Essentiel",
+    desc: "Conditionne en profondeur, améliore la brillance et l'élasticité des cheveux.",
+    mobileUrl: "/images/herobanner/mobile_hero_slide_third.png",
   },
   {
     url: "/images/herobanner/hero_slide_fourth.webp",
-      title: "Fortifying Shampoo",
-      subtitle: "Essential",
-      desc: "Cleanses, purifies & rejuvenates hair growth.",
-    mobileUrl: '/images/herobanner/mobile_hero_slide_third.png',
+    title: "Shampoing Fortifiant",
+    subtitle: "Essentiel",
+    desc: "Nettoie, purifie et revitalise la croissance des cheveux.",
+    mobileUrl: "/images/herobanner/mobile_hero_slide_third.png",
   },
 ];
 export const HeroBanner = () => {
-    const [isMobile, setIsMobile] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
 
-    useEffect(() => {
-        const handleResize = () => {
-            setIsMobile(window.innerWidth < 768);
-        };
-        window.addEventListener("resize", handleResize);
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+    window.addEventListener("resize", handleResize);
 
-        return () => {
-            window.removeEventListener("resize", handleResize);
-        };
-    }, []);
-    
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   const PrevArrow = (
     <div
       style={{ cursor: "pointer", position: "absolute", left: 0, zIndex: 30 }}
@@ -95,11 +94,12 @@ export const HeroBanner = () => {
           <div key={index}>
             <div
               style={{
-                        backgroundImage: `url(${isMobile ? slideImage.mobileUrl : slideImage.url})`,
+                backgroundImage: `url(${
+                  isMobile ? slideImage.mobileUrl : slideImage.url
+                })`,
                 backgroundSize: "cover",
                 backgroundClip: "border-box",
                 height: "100vh",
-             
               }}
               className="flex lg:justify-center lg:items-center"
             >
@@ -114,8 +114,12 @@ export const HeroBanner = () => {
 
                   <p className="lg:text-[24px] text-white">{slideImage.desc}</p>
                 </div>
-                <Button href={"/products"} buttonColor={"beige"} fontSize={"18"}>
-                  Discover
+                <Button
+                  href={"/products"}
+                  buttonColor={"beige"}
+                  fontSize={"18"}
+                >
+                  Découvrir
                 </Button>
               </div>
             </div>

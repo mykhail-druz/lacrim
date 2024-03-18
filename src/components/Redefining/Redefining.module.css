@@ -32,13 +32,16 @@
 }
 
 .title {
-  @apply capitalize text-[36px] md:text-[48px] font-bold text-[#101415];
+  @apply text-[36px] md:text-[48px] font-bold text-[#101415];
+  line-height: 57px;
 }
 
 .subtitle {
   @apply text-[26px] md:text-[32px] text-black;
+  line-height: 38px;
 }
 
 .description {
   @apply text-[20px] md:text-[26px] font-light;
+  line-height: 33px;
 }

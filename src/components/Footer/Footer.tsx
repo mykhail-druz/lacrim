@@ -11,11 +11,14 @@ export const Footer = () => {
   return (
     <footer className={styles.footer}>
       <div className="space-y-3">
-        <h1 className={styles.title}>Join the 1908 Movement</h1>
+        <h1 className={styles.title}>Rejoignez le Mouvement 1908</h1>
         <div>
-          <p className={styles.desc}>Embrace self-care with 1908 by LACRIM.</p>
           <p className={styles.desc}>
-            The grooming routine where luxury and urban life meet.
+            Embrassez le soin de soi avec 1908 par LACRIM.
+          </p>
+          <p className={styles.desc}>
+            La routine de toilettage où le luxe et la vie urbaine se
+            rencontrent.
           </p>
         </div>
         <Button
@@ -29,19 +32,19 @@ export const Footer = () => {
           buttonColor={"beige"}
           fontSize={"16"}
         >
-          <span>Back to top</span> <ArrowTop />
+          <span>Retour en haut</span> <ArrowTop />
         </Button>
       </div>
       <div className={styles.links__block}>
         <div className={styles.contact__links}>
-          <h1 className={styles.title__links}>Contact us</h1>
+          <h1 className={styles.title__links}>Contactez nous</h1>
           <hr className={styles.hr} />
           <a className={styles.link} href="">
-            Contact us
+            Contactez nous
           </a>
         </div>
         <div className={styles.social__links__block}>
-          <h1 className={styles.title__links}>Follow us</h1>
+          <h1 className={styles.title__links}>Suivez nous</h1>
           <hr className={styles.hr} />
           <div className={styles.social__links}>
             <a className={styles.link} href="">
@@ -63,16 +66,16 @@ export const Footer = () => {
           <hr className={styles.hr} />
           <nav className={styles.menu__links}>
             <a className={styles.link} href="/">
-              Home
+              Maison
             </a>
             <a className={styles.link} href="/about">
-              Our Story
+              Histoire{" "}
             </a>
             <a className={styles.link} href="">
-              Shop
+              Boutique
             </a>
             <a className={styles.link} href="/products">
-              Products
+              Produits
             </a>
             {/* <a className={styles.link} href="/about">
             About us
@@ -80,16 +83,16 @@ export const Footer = () => {
           </nav>
         </div>
         <div className={styles.legal__links}>
-          <h1 className={styles.title__links}>Legal</h1>
+          <h1 className={styles.title__links}>Légal</h1>
           <hr className={styles.hr} />
           <a className={styles.link} href="">
-            Legal terms
+            Termes légaux{" "}
           </a>
           <a className={styles.link} href="">
-            Privacy Policy
+            Politique de confidentialité{" "}
           </a>
           <a className={styles.link} href="">
-            Notice about cookie management
+            Avis sur la gestion des cookies{" "}
           </a>
           <a className={styles.link} href="">
             FAQ
@@ -112,20 +115,24 @@ export const Footer = () => {
             ultrices blandit adipiscing massa diam ullamcorper. Varius gravida
             id at nam enim pretium accumsan fames.
           </p>
-          <form className="flex space-x-[20px] items-center">
+          <form className="flex space-x-[20px] items-center pt-4">
             <input
               id="unique-checkbox-id"
               type="checkbox"
-
               name="unique-checkbox-id"
             />
-            <label htmlFor="unique-checkbox-id" className="text-white cursor-pointer">
+            <label
+              htmlFor="unique-checkbox-id"
+              className="text-white cursor-pointer"
+            >
               Lorem ipsum dolor sit amet consectetur. Ridiculus molestie orci
             </label>
           </form>
-          <Button href={""} buttonColor={"beige"} fontSize={"20"}>
-            Sign Up
-          </Button>
+          <div className="pt-4">
+            <Button href={""} buttonColor={"beige"} fontSize={"20"}>
+              Sign Up
+            </Button>
+          </div>
         </div>
       </div>
     </footer>
