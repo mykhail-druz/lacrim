@@ -75,7 +75,7 @@ export default function Products() {
               Masque pour Cheveux
             </h1>
             <p className={`${styles.desc}`} data-aos="fade-left">
-              Conditionne en profondeur, améliore la brillance et l'élasticité
+              Conditionne en profondeur, améliore la brillance et l&apos;élasticité
               des cheveux.
             </p>
             <div>
@@ -94,7 +94,7 @@ export default function Products() {
             alt="Face cream"
             className={"lg:block hidden"}
           />
-        </div>
+        </div>Discover
         <div className={styles.fourth__block}>
           <img
             src="/images/products/shampo_hand.png"
