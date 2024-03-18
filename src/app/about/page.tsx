@@ -9,8 +9,8 @@ export default function About() {
   useEffect(() => {
     AOS.init({
       duration: 800,
-      once: false,
-      mirror: true,
+      once: true,
+      mirror: false,
       anchorPlacement: "top-bottom",
     });
   }, []);

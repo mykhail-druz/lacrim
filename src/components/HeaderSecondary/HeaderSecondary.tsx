@@ -24,42 +24,66 @@ export const HeaderSecondary: React.FC<HeaderSecondaryProps> = ({
   };
   return (
     <header className={styles.header}>
-      <div className={styles.logo}>
-        <Logo />
+      <div
+        data-aos="fade-down"
+        data-aos-duration="1000"
+        className={styles.logo}
+      >
+        <a href="/">
+          <Logo />
+        </a>
       </div>
       <nav className={styles.nav}>
-        <a href="/" className={`${styles.btn}`}>
-          Home
+        <a
+          data-aos="fade-down"
+          data-aos-duration="1100"
+          href="/"
+          className={`${styles.btn}`}
+        >
+          Maison
         </a>
         <a
           href="/products"
           className={`${
             activeNavBtn === "products" ? styles.btn__active : styles.btn
           }`}
+          data-aos="fade-down"
+          data-aos-duration="1200"
         >
-          Products
+          Produits
         </a>
         <a
           href="/about"
           className={`${
             activeNavBtn === "about" ? styles.btn__active : styles.btn
           }`}
+          data-aos="fade-down"
+          data-aos-duration="1300"
         >
-          Our Story
+          Histoire{" "}
         </a>
-        <a className={`${styles.btn}`}>Shop</a>
+        <a
+          className={`${styles.btn}`}
+          data-aos="fade-down"
+          data-aos-duration="1400"
+        >
+          Boutique
+        </a>
         <a
           href="/upcoming"
           className={`${
             activeNavBtn === "upcoming" ? styles.btn__active : styles.btn
           }`}
+          data-aos="fade-down"
+          data-aos-duration="1500"
         >
-          Upcoming
+          Prochainement
         </a>
       </nav>
       <div
         className="w-full flex justify-end md:hidden z-30"
         onClick={toggleMobileNav}
+        data-aos="fade-down"
       >
         {isMobileNavOpen ? (
           <IoMdClose

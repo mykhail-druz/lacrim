@@ -1,7 +1,7 @@
 .section {
   @apply flex items-center justify-center relative;
   min-height: 300px;
-  overflow: hidden; /* Предотвратить выход за пределы размытого оверлея */
+  overflow: hidden;
 }
 
 .blur__overlay {

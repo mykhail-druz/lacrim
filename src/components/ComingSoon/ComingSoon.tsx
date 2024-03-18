@@ -6,12 +6,16 @@ export const ComingSoon = () => {
     <section className={styles.section}>
       <div className={styles.blur__overlay}></div>
       <div className={styles.container}>
-        <p className={`${styles.title} animate__pulse animate__animated animate__infinite`}>Coming soon</p>
-        <p className={`${styles.description}`}>summer collection</p>
+        <p
+          className={`${styles.title} animate__pulse animate__animated animate__infinite`}
+        >
+          Bientôt disponible
+        </p>
+        <p className={`${styles.description}`}>Collection d’été</p>
         <div>
           {" "}
           <Button fontSize="16px" buttonColor="black" href="/upcoming">
-            Discover
+            Découvrir
           </Button>
         </div>
       </div>

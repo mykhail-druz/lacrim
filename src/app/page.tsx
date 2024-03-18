@@ -1,16 +1,23 @@
-"use client"
-import { ComingSoon, Redefining, UrbanMan, UrbanSkinkare, HeroBanner } from "@/components";
+"use client";
+import {
+  ComingSoon,
+  Redefining,
+  UrbanMan,
+  UrbanSkinkare,
+  HeroBanner,
+} from "@/components";
 import Layout from "@/layout/Layout";
-import { useEffect } from "react"; 
+import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
 export default function Home() {
+
   useEffect(() => {
     AOS.init({
       duration: 800,
-      once: false,
-      mirror: true,
+      once: true,
+      mirror: false,
       anchorPlacement: "top-bottom",
     });
   }, []);
