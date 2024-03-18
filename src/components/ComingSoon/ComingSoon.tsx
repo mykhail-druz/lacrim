@@ -14,7 +14,7 @@ export const ComingSoon = () => {
         <p className={`${styles.description}`}>Collection d’été</p>
         <div>
           {" "}
-          <Button fontSize="16px" buttonColor="black" href="/upcoming">
+          <Button fontSize="16px" buttonColor="black" href="/products">
             Découvrir
           </Button>
         </div>

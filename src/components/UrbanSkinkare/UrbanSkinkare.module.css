@@ -4,7 +4,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 1080px;
+  min-height: 50vw;
 }
 
 @media (max-width: 640px) {
@@ -16,12 +16,12 @@
 
 .container {
   @apply w-full md:w-2/3 lg:w-3/4 xl:w-3/4 2xl:w-1/2 space-y-10;
+  max-width: 1920px;
 }
 
 .title {
   @apply capitalize text-beige text-[40px] md:text-[52px] lg:text-[64px] font-bold;
-  letter-spacing: 0.05em;
-  line-height: 76px;
+
 }
 
 @media (max-width: 540px) {

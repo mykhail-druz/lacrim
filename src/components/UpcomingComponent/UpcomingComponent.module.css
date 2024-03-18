@@ -24,7 +24,7 @@
 }
 
 .container {
-  @apply w-[95%] lg:w-[70%] xl:w-[65%] 2xl:w-[45%] text-center flex flex-col space-y-6 md:space-y-8 justify-center;
+  @apply w-[95%] lg:w-[70%] xl:w-[65%] 2xl:w-[45%] text-center flex flex-col space-y-6 md:space-y-8 justify-center max-w-[1920px] mx-auto;
 }
 
 .new {
@@ -62,5 +62,5 @@
 }
 
 .button__form {
-  @apply font-medium bg-black border-2 border-black text-white rounded-3xl py-2 md:py-0 px-2 md:px-8 hover:bg-beige hover:text-black duration-300;
+  @apply font-medium bg-black border-2 border-black text-white rounded-[12px] py-2 md:py-0 px-2 md:px-8 hover:bg-beige hover:text-black duration-300;
 }

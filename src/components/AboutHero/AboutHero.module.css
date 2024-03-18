@@ -35,6 +35,8 @@
 
 .title {
   @apply text-[44px] lg:text-[45px] xl:text-[50px] 2xl:text-[56px] font-bold text-beige;
+  letter-spacing: 0.05em;
+  line-height: 76px;
 }
 
 .description {

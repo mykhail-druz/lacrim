@@ -1,38 +1,35 @@
-.bg__block{
-    @apply flex flex-col lg:h-[4321px] bg-cover;
-    background-image: url('/images/products/bg.png');
-    width:100%;
-    overflow-y: hidden;
-
+.bg__block {
+  @apply flex flex-col lg:h-[4321px] bg-cover;
+  background-image: url("/images/products/bg.png");
+  width: 100%;
+  overflow-y: hidden;
 }
-@media (max-width:568px) {
-    .bg__block{
+@media (max-width: 568px) {
+  .bg__block {
     height: 3250px;
-    background-image: url('/images/products/bg_mobile.png');
-
-
+    background-image: url("/images/products/bg_mobile.png");
+  }
 }
+.first__block {
+  @apply flex lg:flex-row flex-col-reverse lg:justify-between lg:pl-32 lg:pr-64 mb-16 lg:px-0 lg:mt-0 mt-[650px] max-w-[1920px] mx-auto;
 }
-.first__block{
-    @apply flex lg:flex-row flex-col-reverse lg:justify-between lg:pl-32 lg:pr-64 mb-16 lg:px-0 lg:mt-0 mt-[650px];
+.desc {
+  @apply lg:text-[24px] text-[18px] text-black;
+  --animate-delay: 1.4s;
 }
-.desc{
-@apply lg:text-[24px] text-[18px] text-black;
---animate-delay: 1.4s;
+.title {
+  @apply font-extrabold lg:text-[40px] text-[24px] text-[#101415];
+  --animate-delay: 0.8s;
 }
-.title{
-    @apply font-extrabold lg:text-[40px] text-[24px] text-[#101415];
-    --animate-delay: 0.8s;
+.text__block {
+  @apply my-auto space-y-2 lg:mb-64 lg:px-0 px-8 flex flex-col justify-center;
 }
-.text__block{
-@apply my-auto space-y-2 lg:mb-64 lg:px-0 px-8 flex flex-col justify-center
+.second__block {
+  @apply flex lg:flex-row flex-col justify-between lg:pr-32 lg:mt-32 lg:items-center mt-[650px] my-16 lg:my-64 space-y-16 lg:space-y-0 max-w-[1920px] mx-auto;
 }
-.second__block{
-    @apply flex lg:flex-row flex-col justify-between lg:pr-32 lg:mt-32 lg:items-center mt-[650px] my-16 lg:my-64 space-y-16 lg:space-y-0
+.third__block {
+  @apply flex lg:flex-row flex-col-reverse justify-between lg:mt-32 mt-[500px] lg:pl-32 lg:my-64 space-y-16  mb-16 lg:space-y-0 max-w-[1920px] mx-auto;
 }
-.third__block{
-     @apply flex lg:flex-row flex-col-reverse justify-between lg:mt-32 mt-[500px] lg:pl-32 lg:my-64 space-y-16  mb-16 lg:space-y-0
-}
-.fourth__block{
-     @apply lg:mt-auto flex lg:flex-row flex-col lg:pr-32 lg:space-x-16 mt-[500px] lg:pb-8 space-y-16 lg:space-y-0
+.fourth__block {
+  @apply lg:mt-auto flex lg:flex-row flex-col lg:pr-32 lg:space-x-16 mt-[500px] lg:pb-8 space-y-16 lg:space-y-0 max-w-[1920px] mx-auto;
 }

@@ -81,7 +81,7 @@ export const HeroBanner = () => {
     <section id="up" className={`slide-container ${styles.section}`}>
       <Slide
         transitionDuration={1200}
-        duration={2500}
+        duration={1500}
         prevArrow={PrevArrow}
         nextArrow={NextArrow}
         canSwipe={true}
@@ -89,6 +89,7 @@ export const HeroBanner = () => {
         indicators={customIndicators}
         autoplay
         easing={"ease-out"}
+        pauseOnHover={false}
       >
         {slideImages.map((slideImage, index) => (
           <div key={index}>
@@ -103,7 +104,7 @@ export const HeroBanner = () => {
               }}
               className="flex lg:justify-center lg:items-center"
             >
-              <div className="space-y-8 flex flex-col lg:mx-0 lg:ml-auto lg:mr-[20%] mr-0 ml-0 mx-auto lg:px-0 px-8 lg:items-start items-start lg:mt-0 mt-[250px]">
+              <div className="space-y-8 flex flex-col lg:mx-0 lg:ml-auto lg:mr-[20%] mr-0 ml-0 mx-auto lg:px-0 px-8 lg:items-start items-start lg:mt-0 mt-[250px] max-w-[1920px]">
                 <div>
                   <h2 className="lg:text-[32px] text-white ">
                     {slideImage.subtitle}

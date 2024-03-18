@@ -22,7 +22,7 @@ export const Card: React.FC<CardProps> = ({
   clasName,
 }) => {
   return (
-    <div className={`${styles.card} ${clasName}`} data-aos="fade-right">
+    <div className={`${styles.card} ${clasName}`}>
       {image && (
         <Image className="translate-y-[2px]" src={image} alt={title || ""} width={350} height={450} />
       )}
