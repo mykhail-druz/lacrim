@@ -42,6 +42,9 @@ export const Footer = () => {
           <a className={styles.link} href="">
             Contactez nous
           </a>
+          <a className={styles.link} href="">
+          Carrière
+          </a>
         </div>
         <div className={styles.social__links__block}>
           <h1 className={styles.title__links}>Suivez nous</h1>
