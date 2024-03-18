@@ -2,19 +2,20 @@
   @apply w-full bg-black  lg:space-y-0 space-y-8 px-8 xl:px-8 2xl:px-32 grid grid-cols-1 lg:grid-cols-3 py-16;
 }
 .title {
-  @apply text-[34px] font-bold text-white;
+  @apply text-[24px] 2xl:text-[34px] font-bold text-white;
+
 }
 .desc {
-  @apply text-[18px] text-white;
+  @apply text-[16px] 2xl:text-[18px] text-white;
 }
 .link {
-  @apply text-white text-[18px];
+  @apply text-white text-[15px];
 }
 .hr {
   @apply w-[60px] bg-beige h-[2px] border-0;
 }
 .title__links {
-  @apply text-white text-[20px];
+  @apply text-white text-[18px];
 }
 .menu__links {
   @apply flex flex-col space-y-1;
@@ -29,19 +30,19 @@
   @apply flex space-x-2 pt-1 items-center;
 }
 .legal__links {
-  @apply flex flex-col space-y-1;
+  @apply flex flex-col space-y-1 w-[95%];
 }
 .contact__links {
   @apply flex flex-col space-y-1;
 }
 .newsletter_title {
-  @apply text-white text-[24px];
+  @apply text-white text-[22px] 2xl:text-[24px];
 }
 .newsletter__block {
   @apply w-full sm:w-1/2 md:w-1/2 lg:w-full space-y-1;
 }
 .desc__form {
-  @apply text-[16px] text-white;
+  @apply text-[14px] 2xl:text-[16px] text-white;
   line-height: 18px;
 }
 .input {

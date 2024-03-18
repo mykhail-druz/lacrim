@@ -94,7 +94,7 @@ export default function Products() {
             alt="Face cream"
             className={"lg:block hidden"}
           />
-        </div>Discover
+        </div>
         <div className={styles.fourth__block}>
           <img
             src="/images/products/shampo_hand.png"
