@@ -1,4 +1,4 @@
-"use client";
+"use client"
 import {
   ComingSoon,
   Redefining,
@@ -12,7 +12,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 export default function Home() {
-
   useEffect(() => {
     AOS.init({
       duration: 800,
@@ -20,7 +19,10 @@ export default function Home() {
       mirror: false,
       anchorPlacement: "top-bottom",
     });
+    
+    window.scrollTo(0, 0);
   }, []);
+
   return (
     <Layout headerType="main">
       <HeroBanner />

@@ -19,7 +19,6 @@
   }
 }
 
-/* Удаление фоновых изображений на экранах меньше 640px */
 @media (max-width: 760px) {
   .section {
     background-image: none;

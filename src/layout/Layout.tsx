@@ -14,6 +14,7 @@ const Layout: React.FC<LayoutProps> = ({children, headerType, activeNavBtn}) => 
             {headerType === "main" ? <HeaderMain /> : <HeaderSecondary activeNavBtn={activeNavBtn}/>}
             <main className="">{children}</main>
             <Footer />
+            {/* max-w-[1920px] flex flex-col mx-auto */}
         </>
     );
 }

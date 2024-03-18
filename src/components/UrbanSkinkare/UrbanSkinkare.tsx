@@ -5,6 +5,7 @@ import { Button } from "../Button";
 export const UrbanSkinkare = () => {
   return (
     <section className={styles.section}>
+      <div className="max-w-[1920px] flex mx-auto">
       <div className={styles.container}>
         <p className={`${styles.p__new}`} data-aos="fade-down">
           NOUVEAU
@@ -27,10 +28,11 @@ export const UrbanSkinkare = () => {
           data_aos="fade-down"
           fontSize="20px"
           buttonColor="beige"
-          href="/about"
+          href="/products"
         >
           Découvrir
         </Button>
+      </div>
       </div>
     </section>
   );
